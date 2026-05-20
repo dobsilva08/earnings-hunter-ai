@@ -25,10 +25,20 @@ DB_PATH = "database/earnings_hunter.db"
 
 # Default tickers
 DEFAULT_TICKERS = [
+    # Tech Giants
     "AAPL", "MSFT", "GOOGL", "AMZN", "NVDA",
     "META", "TSLA", "AMD", "NFLX", "CRM",
     "ORCL", "INTC", "QCOM", "AVGO", "MU",
+    # Finance
     "JPM", "GS", "MS", "BAC", "V",
+    # User Added
+    "SHOP", "PLTR", "QBTS", "CVNA", "TWLO",
+    "LRCX", "QUBT", "MRNA", "SEDG", "CIFR",
+    "AMPX", "GENI", "BORR", "DLO", "IOT",
+    "TROX", "NBR", "PGEN", "UUUU", "RMTI",
+    "OPEN", "RZLV", "GRPO", "SLNH", "LEU",
+    "SES", "SMTC", "USAR", "FATN", "CSCO",
+    "APM", "FLNC", "ASTS", "ABCD",
 ]
 
 # API settings
