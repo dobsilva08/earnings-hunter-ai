@@ -98,7 +98,7 @@ def color_signal(val):
     return colors.get(val, "")
 
 cols_to_show = [c for c in ["symbol", "name", "earnings_date", "trading_days", "signal", "sector", "timing"] if c in display_df.columns]
-styled = display_df[cols_to_show].style.applymap(color_signal, subset=["signal"] if "signal" in cols_to_show else [])
+styled = display_df[cols_to_show].style.map(color_signal, subset=["signal"] if "signal" in cols_to_show else [])
 st.dataframe(styled, use_container_width=True, height=400)
 
 # Charts row
